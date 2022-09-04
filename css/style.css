@@ -1,0 +1,39 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  background-color: #333;
+  color: #eee;
+  width: 80%;
+  box-sizing: border-box;
+
+  margin: 50px;
+  padding: 20px;
+  border: 15px solid blue;
+}
+
+.main-aside h2 {
+  text-align: center;
+}
+
+.main-aside ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.main-aside ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+.main-aside ul a:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.main-aside ul a:visited {
+  color: chartreuse;
+}
