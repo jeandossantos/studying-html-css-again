@@ -109,3 +109,23 @@ body {
   right: 20px;
   cursor: pointer;
 }
+
+/* .categories ul li:first-child {
+  color: red;
+}
+
+.categories ul li:last-child {
+  color: red;
+}
+
+.categories ul li:nth-child(3) {
+  color: green;
+} */
+
+.categories ul li:nth-child(even) {
+  color: red;
+}
+
+.categories ul li:nth-child(odd) {
+  color: blue;
+}
